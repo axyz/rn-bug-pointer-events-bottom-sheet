@@ -6,6 +6,7 @@ import ReactAppDependencyProvider
 @main
 class AppDelegate: RCTAppDelegate {
   override func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+    RCTSetDispatchW3CPointerEvents(true)
     self.moduleName = "ReproducerApp"
     self.dependencyProvider = RCTAppDependencyProvider()
 

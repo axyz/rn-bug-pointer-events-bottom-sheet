@@ -10,8 +10,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "@gorhom/bottom-sheet": "^5.1.2",
     "react": "19.0.0",
-    "react-native": "0.78.0"
+    "react-native": "0.78.0",
+    "react-native-gesture-handler": "^2.24.0",
+    "react-native-reanimated": "^3.17.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -37,3 +40,4 @@
     "node": ">=18"
   }
 }
+
